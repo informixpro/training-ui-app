@@ -81,7 +81,16 @@
 		"You have unsaved changes, do you want to discard them?": "Máte neuložené změny, přejete si je zrušit?",
 		"Fullscreen": "Celá obrazovka",
 		"Exit Fullscreen": "Opustit celou obrazovku",
-		"Invalid Date": "Nesprávné datum"
+		"Invalid Date": "Nesprávné datum",
+		"Loading": "Načítání…",
+		"Item not found": "Položka nenalezena",
+		"Back to list": "Zpět na seznam",
+		"Users": "Uživatelé",
+		"Username": "Uživatelské jméno",
+		"Email": "E-mail",
+		"Address": "Adresa",
+		"Last sign-in": "Poslední přihlášení",
+		"Detail": "Detail"
 	},
 
 	"Training": {

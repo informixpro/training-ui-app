@@ -1,5 +1,6 @@
 import { Module } from "asab_webui_components";
 
+import { ItemDetails } from '../components/ItemDetails.jsx';
 import { TableScreen } from './TableScreen.jsx';
 
 export default class TableApplicationModule extends Module {
@@ -11,6 +12,12 @@ export default class TableApplicationModule extends Module {
 			end: false,
 			name: 'Table',
 			component: TableScreen,
+		});
+
+		app.Router.addRoute({
+			path: "/:id",
+			name: 'ItemDetails',
+			component: ItemDetails,
 		});
 
 		app.Navigation.addItem({

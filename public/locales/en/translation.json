@@ -81,7 +81,16 @@
 		"You have unsaved changes, do you want to discard them?": "You have unsaved changes, do you want to discard them?",
 		"Fullscreen": "Fullscreen",
 		"Exit Fullscreen": "Exit Fullscreen",
-		"Invalid Date": "Invalid Date"
+		"Invalid Date": "Invalid Date",
+		"Loading": "Loading…",
+		"Item not found": "Item not found",
+		"Back to list": "Back to list",
+		"Users": "Users",
+		"Username": "Username",
+		"Email": "Email",
+		"Address": "Address",
+		"Last sign-in": "Last sign-in",
+		"Detail": "Detail"
 	},
 
 	"Training": {
