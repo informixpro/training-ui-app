@@ -95,5 +95,18 @@
 
 	"Training": {
 		"Hello, there is nothing here yet!": "Zdravíčko, zatím tu nic není!"
+	},
+
+	"GeoRadar": {
+		"Title": "Geo radar",
+		"City name": "Název města",
+		"Enter a city name": "Zadejte název města.",
+		"No location found": "Místo nenalezeno.",
+		"Country code": "Kód země",
+		"latitude": "Zeměpisná šířka",
+		"longitude": "Zeměpisná délka",
+		"elevation": "Nadmořská výška (m)",
+		"timezone": "Časové pásmo",
+		"population": "Počet obyvatel"
 	}
 }
