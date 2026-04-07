@@ -1,8 +1,8 @@
-const path = require('path');
-const CWD = process.cwd();
+const path = require('path')
+const CWD = process.cwd()
 
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin")
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
 	plugins: [
@@ -55,4 +55,4 @@ module.exports = {
 	resolve: {
 		modules: [path.resolve(CWD, 'node_modules'), 'node_modules'],
 	}
-};
+}

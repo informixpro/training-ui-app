@@ -1,13 +1,13 @@
-import React from "react";
-import { createRoot } from 'react-dom/client';
-import { HashRouter } from 'react-router';
+import React from "react"
+import { createRoot } from 'react-dom/client'
+import { HashRouter } from 'react-router'
 
-const root = createRoot(document.getElementById('app'));
-import { Application, I18nModule, AboutModule } from 'asab_webui_shell';
+const root = createRoot(document.getElementById('app'))
+import { Application, I18nModule, AboutModule } from 'asab_webui_shell'
 
 (async function init() {
 	// Dynamically import your module(s)
-	const { default: TableApplicationModule } = await import('./module/index.jsx');
+	const { default: TableApplicationModule } = await import('./module/index.jsx')
 
 	const config = {
 		title: "TeskaLabs Training UI App",
@@ -39,7 +39,7 @@ import { Application, I18nModule, AboutModule } from 'asab_webui_shell';
 			debug: false,
 			nsSeparator: false
 		}
-	};
+	}
 
 	root.render(
 		<HashRouter>
@@ -47,5 +47,6 @@ import { Application, I18nModule, AboutModule } from 'asab_webui_shell';
 				configdefaults={config}
 				modules={[I18nModule, AboutModule, TableApplicationModule]}
 			/>
-		</HashRouter>,);
-})();
+		</HashRouter>,
+	)
+})()

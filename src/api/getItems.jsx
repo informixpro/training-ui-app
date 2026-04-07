@@ -13,7 +13,7 @@ export async function getItems({ params }) {
       rows: data.data
     }
   } catch (error) {
-    console.error("Error loading items:", error);
+    console.error("Error loading items:", error)
     return {
       rows: [],
       count: 0

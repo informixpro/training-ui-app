@@ -2,7 +2,7 @@ import React from 'react'
 import { Container } from 'reactstrap'
 import { useTranslation } from 'react-i18next'
 
-import { Link } from 'react-router';
+import { Link } from 'react-router'
 import { DataTableCard2, DateTime } from 'asab_webui_components'
 
 import { getItems } from '../api/getItems.jsx'
@@ -64,7 +64,7 @@ export function TableScreen(props) {
 						{t('General|Detail')}
 					</Link>
 		},
-	];
+	]
 
 	return (
 			<Container fluid>
