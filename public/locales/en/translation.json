@@ -95,5 +95,18 @@
 
 	"Training": {
 		"Hello, there is nothing here yet!": "Hello, there is nothing here yet!"
+	},
+
+	"GeoRadar": {
+		"Title": "Geo radar",
+		"City name": "City name",
+		"Enter a city name": "Enter a city name.",
+		"No location found": "No location found.",
+		"Country code": "Country code",
+		"latitude": "Latitude",
+		"longitude": "Longitude",
+		"elevation": "Elevation (m)",
+		"timezone": "Timezone",
+		"population": "Population"
 	}
 }
